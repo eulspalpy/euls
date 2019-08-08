@@ -14,7 +14,7 @@
 <br><br><br>
 <h1>Inventory</h1>
 
-<button id="btnAdd">Add New Product</button>
+<button id="btnAdd">Add New Product testinasljalskdj</button>
 <a class="" href="<?php echo base_url()."Pos_controllers/inventory" ?>"> Refresh</a>
 <br><br>
 <body>
