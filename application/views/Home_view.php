@@ -9,7 +9,7 @@
 </head>
 <body>
 	<a class="btn btn-primary" href="<?php echo base_url()."Pos_controllers/login" ?>"> Login</a>
-	<h2>Welcome to Home Page</h2>
+	<h2>Welcome to Home Page test</h2>
 <label></label>
 </body>
 </html>
