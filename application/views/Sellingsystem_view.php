@@ -24,12 +24,12 @@
 		<input for="" type='hidden' id='sample'>
 		<label class="font-weight-bold">Total</label>
 		<div>
-		<input class="form-control p-3 mb-2" type="number" name="finaltotal" id="finaltotal" placeholder="total">
+		<input class="form-control p-3 mb-2" type="text" name="finaltotal" id="finaltotal" placeholder="total">
 		</div>
 		<label class="font-weight-bold">Cash</label>
-		<input class="form-control p-3 mb-2" type="number" name="cash" id="cash" placeholder="cash">
+		<input class="form-control p-3 mb-2" type="text" name="cash" id="cash" placeholder="cash">
 		<label class="font-weight-bold">Change</label>
-		<input class="form-control p-3 mb-2" type="number" name="change" id="change" placeholder="change">
+		<input class="form-control p-3 mb-2" type="text" name="change" id="change" placeholder="change">
 		<button type="button" id="submit" class="btn btn-success">Submit</button>
 		<a class="btn btn-primary" href="<?php echo base_url().'Pos_controllers/selling' ?>"> refresh</a>
 		</form>
@@ -62,7 +62,7 @@
 								<td><input id="pname" readonly class="form-group-plaintext" type="text" class="form-control"name="pname"></td> 
 								<td><input id="price" readonly class="form-group-plaintext" type="number" class="form-control"name="price"></td> 
 								<td><input id="qty" type="number" class="form-control"name="qty"></td> 							
-								<td><input for='total' readonly class="form-group-plaintext" id="total" type="number" class="form-control"name="total"></td> 
+								<td><input for='total' readonly class="form-group-plaintext" id="total" type="text" class="form-control"name="total"></td> 
 								<td><a href="javascript:;" class=" btn-sm btn-info btnAdd" onclick="addProduct()" id="btnAdd1">Add</a></td>
 							</tr>	
 							</form> 
@@ -71,7 +71,7 @@
 									 
 					</tbody>
 			</table>
-		</form>
+		
 		<form class="form-horizontal">
 					<caption>Products</caption>
 					<table class="table-striped table-bordered table-hover" id="product_list">
@@ -90,8 +90,7 @@
  					    
 						</tbody>
 					</table>
-			</form>
-
+		</form>
 	</div>
 </div>
 
